@@ -1,0 +1,19 @@
+| Component          | Signal         | ESP32 Pin | Notes                               |
+|--------------------|----------------|-----------|-------------------------------------|
+| **HX711 #1**       | DOUT           | GPIO 34   | Input-only pin (good for DOUT)      |
+|                    | SCK            | GPIO 26   |                                     |
+| **HX711 #2**       | DOUT           | GPIO 14   |                                     |
+|                    | SCK            | GPIO 15   |                                     |
+| **HX711 #3**       | DOUT           | GPIO 13   |                                     |
+|                    | SCK            | GPIO 23   |                                     |
+| **HX711 #4**       | DOUT           | GPIO 32   | Original pins                       |
+|                    | SCK            | GPIO 33   |                                     |
+| **BMP180 #1**      | SDA            | GPIO 21   | Default I2C bus                     |
+|                    | SCL            | GPIO 22   |                                     |
+| **BMP180 #2**      | SDA            | GPIO 25   | Secondary I2C bus (TwoWire 1)       |
+|                    | SCL            | GPIO 27   |                                     |
+| **Stepper Motor**  | IN1 (ULN2003)  | GPIO 16   | Connect to driver IN1               |
+|                    | IN2            | GPIO 17   | Connect to driver IN2               |
+|                    | IN3            | GPIO 18   | Connect to driver IN3               |
+|                    | IN4            | GPIO 19   | Connect to driver IN4               |
+| **Bluetooth**      | TX/RX (Classic BT) | —     | No extra pins onboard BT radio used |
